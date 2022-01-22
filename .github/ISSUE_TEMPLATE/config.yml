@@ -2,8 +2,8 @@ blank_issues_enabled: true
 contact_links:
 - name: Question
   url: 'https://github.com/TheAwiteb/Pybfc/discussions/new?category=question'
-  about: Ask a question about Pybfc Library in the discussions section
+  about: Ask a question about Pybfc in the discussions section
 
 - name: Feature Request
   url: 'https://github.com/TheAwiteb/Pybfc/discussions/new?category=feature-request'
-  about: If you think that the Pybfc library needs a new feature, you can tell us about it in the discussions section
+  about: If you think that the Pybf needs a new feature, you can tell us about it in the discussions section
