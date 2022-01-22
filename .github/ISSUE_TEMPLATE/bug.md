@@ -1,0 +1,27 @@
+---
+name: Bug
+about: Create a bug report to help us improve pybfc
+title: ''
+labels: bug
+assignees: ''
+
+---
+
+### Checks
+
+* [ ] I added a descriptive title to this issue
+* [ ] I have searched (google, github) for similar issues and couldn't find anything
+* [ ] I have read and followed [the docs](https://github.com/TheAwiteb/pybfc/blob/master/README.md) and still think this is a bug
+
+# Bug
+
+Output of `python3 -c "import pybfc; print(pybfc.version_info())"`:
+```
+...
+```
+
+<!-- Where possible please include a self-contained code snippet describing your bug: -->
+
+```bash
+
+```
