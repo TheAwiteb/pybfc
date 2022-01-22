@@ -36,11 +36,13 @@
         <li><a href="#GitHub">With GitHub</a></li>
       </ul>
     </li>
+    <li><a href="#Usage">Usage</a></li>
     <li>
-        <a href="#Usage">Usage</a>
-        <!-- <ul>
-            <li><a href="#"></a></li>
-        </ul> -->
+      <a href="#Examples">Examples</a>
+        <ul>
+            <li><a href="#Debug">Debug</a></li>
+            <li><a href="#Hello-World">Hello World</a></li>
+        </ul>
     </li>
     <li><a href="#Discussions">Discussions</a></li>
     <li><a href="#Issues">Issues</a></li>
@@ -83,6 +85,39 @@ Options:
   -d, --debug    Enable debugging with execution.
   -V, --version  Print Pybfc version and exit.
   --help         Show this message and exit.
+```
+
+## Examples
+### Debug
+```main.bf```
+```BranFuck
+>++<
+```
+```bash
+λ pybfc --debug main.bf
+Command -> '>', Loop -> 0
+        Address -> 1, Value -> 0
+
+Command -> '+', Loop -> 0
+        Address -> 1, Value -> 1
+
+Command -> '+', Loop -> 0
+        Address -> 1, Value -> 2
+
+Command -> '<', Loop -> 0
+        Address -> 0, Value -> 0
+```
+
+### Hello World
+```main.bf```
+```BranFuck
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.
+>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+```
+```bash
+λ pybfc main.bf
+Hello World!
+
 ```
 
 ## Discussions
